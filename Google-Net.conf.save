@@ -1,6 +1,9 @@
 interface=wlan1mon
 #wlan1mon
 driver=nl80211
+ssid=interface=wlan1mon
+#wlan1mon
+driver=nl80211
 ssid=( 168 )HWATEF-NET-01510322 
 #zid.net(1336)(7724663666) 
 #( 168 )HWATEF-NET-.01510322
@@ -8,3 +11,12 @@ hw_mode=g
 channel=6
 macaddr_acl=0
 ignore_broadcast_ssid=0
+ 
+#zid.net(1336)(7724663666) 
+#( 168 )HWATEF-NET-.01510322
+#Google Net(70)
+hw_mode=g
+channel=6
+macaddr_acl=0
+ignore_broadcast_ssid=0
+
